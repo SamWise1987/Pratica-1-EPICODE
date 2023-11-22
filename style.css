@@ -1,4 +1,6 @@
 body {
+    height: auto ;
+    max-width: 100%;
     padding: 0;
     margin: 0 ;
 }
@@ -34,6 +36,8 @@ gap: 20px;
 main{
     width: 50%;
     margin: 0 auto;
+    height: auto ;
+    max-width: 100%;
 }
 
 figure{
@@ -57,7 +61,7 @@ flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    
+    ;
 
 }
 
@@ -66,6 +70,7 @@ flex-direction: column;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    color: #b5460f
 
 
 }
@@ -73,6 +78,10 @@ flex-direction: column;
 .featured h3{
 padding: 0;
 margin: 0;
+color: #b5460f;
+}
+a{
+    color: #127878
 }
 
 .featured{
